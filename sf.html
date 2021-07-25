@@ -13198,7 +13198,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span><span class="nn">re</span>
@@ -13227,7 +13227,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfTrain</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;exercise_40_train.csv&quot;</span><span class="p">)</span>
@@ -13241,7 +13241,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfTrain</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
@@ -13257,7 +13257,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[113]:</div>
+    <div class="prompt output_prompt">Out[115]:</div>
 
 
 
@@ -14964,7 +14964,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfCombine</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">dfTrain</span><span class="p">,</span><span class="n">dfTest</span><span class="p">])</span>
@@ -14981,7 +14981,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[114]:</div>
+    <div class="prompt output_prompt">Out[116]:</div>
 
 
 
@@ -15225,7 +15225,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfCombine</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15238,7 +15238,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[118]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfCombine</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
@@ -15254,7 +15254,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[116]:</div>
+    <div class="prompt output_prompt">Out[118]:</div>
 
 
 
@@ -16954,7 +16954,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[119]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">features</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
@@ -17147,7 +17147,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[118]:</div>
+<div class="prompt input_prompt">In&nbsp;[120]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span> <span class="o">=</span> <span class="n">dfCombine</span><span class="p">[(</span><span class="n">dfCombine</span><span class="p">[</span><span class="s2">&quot;y&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span> <span class="o">==</span> <span class="kc">False</span><span class="p">)]</span>
@@ -17176,7 +17176,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[119]:</div>
+<div class="prompt input_prompt">In&nbsp;[121]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">dfCombine</span><span class="p">))</span>
@@ -17209,7 +17209,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[120]:</div>
+<div class="prompt input_prompt">In&nbsp;[122]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -17225,7 +17225,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[120]:</div>
+    <div class="prompt output_prompt">Out[122]:</div>
 
 
 
@@ -17343,78 +17343,10 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[121]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x3&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[121]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;Thursday&#39;, &#39;Tuesday&#39;, &#39;Sunday&#39;, &#39;Tue&#39;, &#39;Fri&#39;, &#39;Monday&#39;,
-       &#39;Saturday&#39;, &#39;Thur&#39;, &#39;Sun&#39;, &#39;Wednesday&#39;, &#39;Friday&#39;, &#39;Mon&#39;, &#39;Wed&#39;,
-       &#39;Sat&#39;], dtype=object)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[122]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x24&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[122]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;male&#39;, &#39;female&#39;], dtype=object)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[123]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x31&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x3&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17433,7 +17365,9 @@ dtype: int64</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;no&#39;, &#39;yes&#39;], dtype=object)</pre>
+<pre>array([&#39;Thursday&#39;, &#39;Tuesday&#39;, &#39;Sunday&#39;, &#39;Tue&#39;, &#39;Fri&#39;, &#39;Monday&#39;,
+       &#39;Saturday&#39;, &#39;Thur&#39;, &#39;Sun&#39;, &#39;Wednesday&#39;, &#39;Friday&#39;, &#39;Mon&#39;, &#39;Wed&#39;,
+       &#39;Sat&#39;], dtype=object)</pre>
 </div>
 
 </div>
@@ -17445,6 +17379,72 @@ dtype: int64</pre>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[124]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x24&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[124]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([&#39;male&#39;, &#39;female&#39;], dtype=object)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x31&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[125]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([&#39;no&#39;, &#39;yes&#39;], dtype=object)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x33&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
@@ -17460,7 +17460,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[124]:</div>
+    <div class="prompt output_prompt">Out[126]:</div>
 
 
 
@@ -17486,7 +17486,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x65&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
@@ -17502,7 +17502,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[125]:</div>
+    <div class="prompt output_prompt">Out[127]:</div>
 
 
 
@@ -17520,7 +17520,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[126]:</div>
+<div class="prompt input_prompt">In&nbsp;[128]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x77&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
@@ -17536,7 +17536,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[126]:</div>
+    <div class="prompt output_prompt">Out[128]:</div>
 
 
 
@@ -17554,7 +17554,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[127]:</div>
+<div class="prompt input_prompt">In&nbsp;[129]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
@@ -17570,7 +17570,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[127]:</div>
+    <div class="prompt output_prompt">Out[129]:</div>
 
 
 
@@ -19797,7 +19797,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[128]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># dfFilter[&quot;x3&quot;] = dfFilter[&quot;x3&quot;].map({&quot;Mon&quot;:&quot;Monday&quot;,&quot;Tue&quot;:&quot;Tuesday&quot;,&quot;Wed&quot;:&quot;Wednesday&quot;, \</span>
@@ -19814,7 +19814,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[129]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;encode_gender_x24&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x24&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="s2">&quot;male&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s2">&quot;female&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">})</span>
@@ -19827,7 +19827,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[130]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;encode_gender_x24&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
@@ -19843,7 +19843,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[130]:</div>
+    <div class="prompt output_prompt">Out[132]:</div>
 
 
 
@@ -19860,7 +19860,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;encode_x31&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x31&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="s2">&quot;no&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s2">&quot;yes&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">})</span>
@@ -19873,7 +19873,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
+<div class="prompt input_prompt">In&nbsp;[134]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
@@ -19889,7 +19889,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[132]:</div>
+    <div class="prompt output_prompt">Out[134]:</div>
 
 
 
@@ -21637,7 +21637,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[135]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">dfCombine</span><span class="p">))</span>
@@ -21677,7 +21677,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">catDaysX3</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;map_days_x3&quot;</span><span class="p">],</span><span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;cat_days_x3&#39;</span><span class="p">)</span>
@@ -21701,7 +21701,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[134]:</div>
+    <div class="prompt output_prompt">Out[136]:</div>
 
 
 
@@ -23561,7 +23561,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">catInsuranceX65</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x65&quot;</span><span class="p">],</span><span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;cat_insurance_x65&quot;</span><span class="p">)</span>
@@ -23585,7 +23585,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[135]:</div>
+    <div class="prompt output_prompt">Out[137]:</div>
 
 
 
@@ -25525,7 +25525,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">catStateX33</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x33&quot;</span><span class="p">],</span><span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;cat_state_x33&quot;</span><span class="p">)</span>
@@ -25549,7 +25549,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[136]:</div>
+    <div class="prompt output_prompt">Out[138]:</div>
 
 
 
@@ -28305,7 +28305,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">catCarManufacturerX77</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x77&quot;</span><span class="p">],</span><span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;cat_car_manufacturer_x77&quot;</span><span class="p">)</span>
@@ -28329,7 +28329,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[137]:</div>
+    <div class="prompt output_prompt">Out[139]:</div>
 
 
 
@@ -31197,7 +31197,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="prompt input_prompt">In&nbsp;[140]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
@@ -31213,7 +31213,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[138]:</div>
+    <div class="prompt output_prompt">Out[140]:</div>
 
 
 
@@ -31404,19 +31404,3056 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="To-be-continued...">To be continued...<a class="anchor-link" href="#To-be-continued...">&#182;</a></h2>
+<h2 id="Remove-percent-sign">Remove percent sign<a class="anchor-link" href="#Remove-percent-sign">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># dfFilter[&quot;x19&quot;] = dfFilter[&quot;x19&quot;].replace({r&#39;\$&#39;:&#39;&#39;},regex=True)</span>
+<span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x19&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x19&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\$&#39;</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[145]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x19&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[145]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>-543.187402955527</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-182.626380634258</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>967.007090837503</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>-377.495529325022</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>-424.548539589247</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>1270.0422302779</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>-1569.34439567685</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>878.100066716282</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>-1258.81184572961</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>775.659697414614</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>-11.3224197917339</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>-852.161847353522</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>-1031.00229371413</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>582.929320723975</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>-885.133604890455</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Convert-to-float">Convert to float<a class="anchor-link" href="#Convert-to-float">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[146]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;convert_type_x19&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfFilter</span><span class="p">[</span><span class="s2">&quot;x19&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfFilter</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[147]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>y</th>
+      <th>x1</th>
+      <th>x2</th>
+      <th>x3</th>
+      <th>x4</th>
+      <th>x5</th>
+      <th>x6</th>
+      <th>x7</th>
+      <th>x8</th>
+      <th>x9</th>
+      <th>x10</th>
+      <th>x11</th>
+      <th>x12</th>
+      <th>x13</th>
+      <th>x14</th>
+      <th>x15</th>
+      <th>x16</th>
+      <th>x17</th>
+      <th>x18</th>
+      <th>x19</th>
+      <th>x20</th>
+      <th>x21</th>
+      <th>x22</th>
+      <th>x23</th>
+      <th>x24</th>
+      <th>x25</th>
+      <th>x26</th>
+      <th>x27</th>
+      <th>x28</th>
+      <th>x29</th>
+      <th>x30</th>
+      <th>x31</th>
+      <th>x32</th>
+      <th>x33</th>
+      <th>x34</th>
+      <th>x35</th>
+      <th>x36</th>
+      <th>x37</th>
+      <th>x38</th>
+      <th>x39</th>
+      <th>x40</th>
+      <th>x41</th>
+      <th>x42</th>
+      <th>x43</th>
+      <th>x44</th>
+      <th>x45</th>
+      <th>x46</th>
+      <th>x47</th>
+      <th>x48</th>
+      <th>x49</th>
+      <th>x50</th>
+      <th>x51</th>
+      <th>x52</th>
+      <th>x53</th>
+      <th>x54</th>
+      <th>x55</th>
+      <th>x56</th>
+      <th>x57</th>
+      <th>x58</th>
+      <th>x59</th>
+      <th>x60</th>
+      <th>x61</th>
+      <th>x62</th>
+      <th>x63</th>
+      <th>x64</th>
+      <th>x65</th>
+      <th>x66</th>
+      <th>x67</th>
+      <th>x68</th>
+      <th>x69</th>
+      <th>x70</th>
+      <th>x71</th>
+      <th>x72</th>
+      <th>x73</th>
+      <th>x74</th>
+      <th>x75</th>
+      <th>x76</th>
+      <th>x77</th>
+      <th>x78</th>
+      <th>x79</th>
+      <th>x80</th>
+      <th>x81</th>
+      <th>x82</th>
+      <th>x83</th>
+      <th>x84</th>
+      <th>x85</th>
+      <th>x86</th>
+      <th>x87</th>
+      <th>x88</th>
+      <th>x89</th>
+      <th>x90</th>
+      <th>x91</th>
+      <th>x92</th>
+      <th>x93</th>
+      <th>x94</th>
+      <th>x95</th>
+      <th>x96</th>
+      <th>x97</th>
+      <th>x98</th>
+      <th>x99</th>
+      <th>x100</th>
+      <th>map_days_x3</th>
+      <th>encode_gender_x24</th>
+      <th>encode_x31</th>
+      <th>cat_days_x3_Friday</th>
+      <th>cat_days_x3_Monday</th>
+      <th>cat_days_x3_Saturday</th>
+      <th>cat_days_x3_Sunday</th>
+      <th>cat_days_x3_Thursday</th>
+      <th>cat_days_x3_Tuesday</th>
+      <th>cat_days_x3_Wednesday</th>
+      <th>cat_insurance_x65_allstate</th>
+      <th>cat_insurance_x65_esurance</th>
+      <th>cat_insurance_x65_farmers</th>
+      <th>cat_insurance_x65_geico</th>
+      <th>cat_insurance_x65_progressive</th>
+      <th>cat_state_x33_Alabama</th>
+      <th>cat_state_x33_Alaska</th>
+      <th>cat_state_x33_Arizona</th>
+      <th>cat_state_x33_Arkansas</th>
+      <th>cat_state_x33_California</th>
+      <th>cat_state_x33_Colorado</th>
+      <th>cat_state_x33_Connecticut</th>
+      <th>cat_state_x33_DC</th>
+      <th>cat_state_x33_Delaware</th>
+      <th>cat_state_x33_Florida</th>
+      <th>cat_state_x33_Georgia</th>
+      <th>cat_state_x33_Hawaii</th>
+      <th>cat_state_x33_Idaho</th>
+      <th>cat_state_x33_Illinois</th>
+      <th>cat_state_x33_Indiana</th>
+      <th>cat_state_x33_Iowa</th>
+      <th>cat_state_x33_Kansas</th>
+      <th>cat_state_x33_Kentucky</th>
+      <th>cat_state_x33_Louisiana</th>
+      <th>cat_state_x33_Maine</th>
+      <th>cat_state_x33_Maryland</th>
+      <th>cat_state_x33_Massachusetts</th>
+      <th>cat_state_x33_Michigan</th>
+      <th>cat_state_x33_Minnesota</th>
+      <th>cat_state_x33_Mississippi</th>
+      <th>cat_state_x33_Missouri</th>
+      <th>cat_state_x33_Montana</th>
+      <th>cat_state_x33_Nebraska</th>
+      <th>cat_state_x33_Nevada</th>
+      <th>cat_state_x33_New Hampshire</th>
+      <th>cat_state_x33_New Jersey</th>
+      <th>cat_state_x33_New Mexico</th>
+      <th>cat_state_x33_New York</th>
+      <th>cat_state_x33_North Carolina</th>
+      <th>cat_state_x33_North Dakota</th>
+      <th>cat_state_x33_Ohio</th>
+      <th>cat_state_x33_Oklahoma</th>
+      <th>cat_state_x33_Oregon</th>
+      <th>cat_state_x33_Pennsylvania</th>
+      <th>cat_state_x33_Rhode Island</th>
+      <th>cat_state_x33_South Carolina</th>
+      <th>cat_state_x33_South Dakota</th>
+      <th>cat_state_x33_Tennessee</th>
+      <th>cat_state_x33_Texas</th>
+      <th>cat_state_x33_Utah</th>
+      <th>cat_state_x33_Vermont</th>
+      <th>cat_state_x33_Virginia</th>
+      <th>cat_state_x33_Washington</th>
+      <th>cat_state_x33_West Virginia</th>
+      <th>cat_state_x33_Wisconsin</th>
+      <th>cat_state_x33_Wyoming</th>
+      <th>cat_car_manufacturer_x77_buick</th>
+      <th>cat_car_manufacturer_x77_chevrolet</th>
+      <th>cat_car_manufacturer_x77_ford</th>
+      <th>cat_car_manufacturer_x77_mercedes</th>
+      <th>cat_car_manufacturer_x77_nissan</th>
+      <th>cat_car_manufacturer_x77_subaru</th>
+      <th>cat_car_manufacturer_x77_toyota</th>
+      <th>convert_type_x19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>4.427278</td>
+      <td>19.188092</td>
+      <td>Thursday</td>
+      <td>0.145652</td>
+      <td>0.366093</td>
+      <td>0.709962</td>
+      <td>-8e-04%</td>
+      <td>0.952323</td>
+      <td>0.782974</td>
+      <td>-1.247022</td>
+      <td>95.375221</td>
+      <td>1.098525</td>
+      <td>1.216059</td>
+      <td>0.450624</td>
+      <td>0.211685</td>
+      <td>99.215210</td>
+      <td>8.601193</td>
+      <td>75.922820</td>
+      <td>-543.187402955527</td>
+      <td>3.802395</td>
+      <td>7.407996</td>
+      <td>71.022413</td>
+      <td>0.070968</td>
+      <td>male</td>
+      <td>4.332644</td>
+      <td>-0.375737</td>
+      <td>1077.233497</td>
+      <td>13.177479</td>
+      <td>4.174536</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>2.605279</td>
+      <td>Texas</td>
+      <td>56.674425</td>
+      <td>0.108486</td>
+      <td>69.798923</td>
+      <td>30.684074</td>
+      <td>31.049447</td>
+      <td>5-10 miles</td>
+      <td>14.372443</td>
+      <td>100087.339539</td>
+      <td>0.869508</td>
+      <td>0.150728</td>
+      <td>NaN</td>
+      <td>-0.856591</td>
+      <td>-2.561083</td>
+      <td>50.236892</td>
+      <td>63.975108</td>
+      <td>6.998154</td>
+      <td>3756.910196</td>
+      <td>1.772648</td>
+      <td>15.057485</td>
+      <td>59.428690</td>
+      <td>1.844493</td>
+      <td>NaN</td>
+      <td>4.127857</td>
+      <td>NaN</td>
+      <td>182.369349</td>
+      <td>0</td>
+      <td>September</td>
+      <td>6.228138</td>
+      <td>1.370661</td>
+      <td>-0.239705</td>
+      <td>54.120933</td>
+      <td>geico</td>
+      <td>-0.032980</td>
+      <td>14.402071</td>
+      <td>18.211817</td>
+      <td>-0.819798</td>
+      <td>1.010811</td>
+      <td>-0.000234</td>
+      <td>48.202036</td>
+      <td>9.336021</td>
+      <td>0.209817</td>
+      <td>1.124866</td>
+      <td>-3.558718</td>
+      <td>subaru</td>
+      <td>55.020333</td>
+      <td>1.0</td>
+      <td>5.660882</td>
+      <td>-2.608974</td>
+      <td>-6.387984</td>
+      <td>2.506272</td>
+      <td>2.138771</td>
+      <td>NaN</td>
+      <td>53.977291</td>
+      <td>0.657292</td>
+      <td>-0.353469</td>
+      <td>NaN</td>
+      <td>3.997183</td>
+      <td>2.059615</td>
+      <td>0.305170</td>
+      <td>no</td>
+      <td>4.456565</td>
+      <td>NaN</td>
+      <td>8.754572</td>
+      <td>7.810979</td>
+      <td>0</td>
+      <td>yes</td>
+      <td>109.345215</td>
+      <td>Thursday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>-543.187403</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.0</td>
+      <td>3.925235</td>
+      <td>19.901257</td>
+      <td>Tuesday</td>
+      <td>1.763602</td>
+      <td>-0.251926</td>
+      <td>-0.827461</td>
+      <td>-0.0057%</td>
+      <td>-0.520756</td>
+      <td>1.825586</td>
+      <td>2.223038</td>
+      <td>96.420382</td>
+      <td>-1.390239</td>
+      <td>3.962961</td>
+      <td>NaN</td>
+      <td>-2.046856</td>
+      <td>NaN</td>
+      <td>6.611554</td>
+      <td>74.966925</td>
+      <td>-182.626380634258</td>
+      <td>7.728963</td>
+      <td>8.136213</td>
+      <td>121.610846</td>
+      <td>0.700954</td>
+      <td>male</td>
+      <td>7.294990</td>
+      <td>-0.603983</td>
+      <td>1051.655489</td>
+      <td>17.006528</td>
+      <td>2.347355</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>1.071202</td>
+      <td>Minnesota</td>
+      <td>59.154933</td>
+      <td>1.319711</td>
+      <td>65.408246</td>
+      <td>34.401290</td>
+      <td>48.363690</td>
+      <td>5-10 miles</td>
+      <td>13.191173</td>
+      <td>100934.096543</td>
+      <td>NaN</td>
+      <td>-0.965711</td>
+      <td>NaN</td>
+      <td>0.422522</td>
+      <td>-2.123048</td>
+      <td>41.857197</td>
+      <td>59.226119</td>
+      <td>NaN</td>
+      <td>1961.609788</td>
+      <td>3.155214</td>
+      <td>NaN</td>
+      <td>68.671023</td>
+      <td>-1.020225</td>
+      <td>5.833712</td>
+      <td>0.663759</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>September</td>
+      <td>6.005140</td>
+      <td>0.013162</td>
+      <td>0.318335</td>
+      <td>54.784192</td>
+      <td>geico</td>
+      <td>-0.466535</td>
+      <td>14.402071</td>
+      <td>14.629914</td>
+      <td>1.389325</td>
+      <td>0.704880</td>
+      <td>-1.510949</td>
+      <td>49.882647</td>
+      <td>5.661421</td>
+      <td>1.606797</td>
+      <td>1.726010</td>
+      <td>-0.398417</td>
+      <td>nissan</td>
+      <td>47.769343</td>
+      <td>1.0</td>
+      <td>7.472328</td>
+      <td>1.424316</td>
+      <td>-5.431998</td>
+      <td>3.285291</td>
+      <td>2.138771</td>
+      <td>105.208424</td>
+      <td>49.543472</td>
+      <td>2.066346</td>
+      <td>1.761266</td>
+      <td>NaN</td>
+      <td>2.933707</td>
+      <td>0.899392</td>
+      <td>5.971782</td>
+      <td>no</td>
+      <td>4.100022</td>
+      <td>1.151085</td>
+      <td>NaN</td>
+      <td>9.178325</td>
+      <td>1</td>
+      <td>yes</td>
+      <td>103.021970</td>
+      <td>Tuesday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-182.626381</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.0</td>
+      <td>2.868802</td>
+      <td>22.202473</td>
+      <td>Sunday</td>
+      <td>3.405119</td>
+      <td>0.083162</td>
+      <td>1.381504</td>
+      <td>0.0109%</td>
+      <td>-0.732739</td>
+      <td>2.151990</td>
+      <td>-0.275406</td>
+      <td>90.769952</td>
+      <td>7.230125</td>
+      <td>3.877312</td>
+      <td>0.392002</td>
+      <td>-1.201565</td>
+      <td>100.626558</td>
+      <td>9.103015</td>
+      <td>77.977156</td>
+      <td>967.007090837503</td>
+      <td>2.272765</td>
+      <td>24.452102</td>
+      <td>56.492317</td>
+      <td>-1.102387</td>
+      <td>male</td>
+      <td>6.313827</td>
+      <td>0.429187</td>
+      <td>949.904947</td>
+      <td>16.962710</td>
+      <td>0.510985</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>2.283921</td>
+      <td>New York</td>
+      <td>46.445617</td>
+      <td>0.022747</td>
+      <td>66.662910</td>
+      <td>31.135261</td>
+      <td>31.819899</td>
+      <td>5-10 miles</td>
+      <td>17.210430</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.012093</td>
+      <td>NaN</td>
+      <td>-0.348240</td>
+      <td>3.477451</td>
+      <td>47.844153</td>
+      <td>55.921988</td>
+      <td>NaN</td>
+      <td>2345.195505</td>
+      <td>3.253079</td>
+      <td>14.193721</td>
+      <td>71.853326</td>
+      <td>0.926779</td>
+      <td>4.115990</td>
+      <td>-2.273628</td>
+      <td>NaN</td>
+      <td>149.725023</td>
+      <td>0</td>
+      <td>January</td>
+      <td>7.654926</td>
+      <td>1.305936</td>
+      <td>0.418272</td>
+      <td>51.486405</td>
+      <td>geico</td>
+      <td>-0.195764</td>
+      <td>14.402071</td>
+      <td>12.227512</td>
+      <td>-2.951163</td>
+      <td>1.096548</td>
+      <td>-0.000234</td>
+      <td>51.349106</td>
+      <td>9.422401</td>
+      <td>3.488398</td>
+      <td>1.884259</td>
+      <td>0.019803</td>
+      <td>toyota</td>
+      <td>44.640410</td>
+      <td>1.0</td>
+      <td>6.530625</td>
+      <td>0.705003</td>
+      <td>-5.664815</td>
+      <td>3.395916</td>
+      <td>2.138771</td>
+      <td>96.150945</td>
+      <td>54.843346</td>
+      <td>0.663113</td>
+      <td>-0.952377</td>
+      <td>NaN</td>
+      <td>2.922302</td>
+      <td>3.003595</td>
+      <td>1.046096</td>
+      <td>yes</td>
+      <td>3.234033</td>
+      <td>2.074927</td>
+      <td>9.987006</td>
+      <td>11.702664</td>
+      <td>0</td>
+      <td>yes</td>
+      <td>92.925935</td>
+      <td>Sunday</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>967.007091</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>0.0</td>
+      <td>3.671553</td>
+      <td>22.207880</td>
+      <td>Tue</td>
+      <td>0.698724</td>
+      <td>-1.862047</td>
+      <td>2.153832</td>
+      <td>0.0068%</td>
+      <td>0.205453</td>
+      <td>1.309530</td>
+      <td>0.683070</td>
+      <td>111.472466</td>
+      <td>1.433037</td>
+      <td>2.625811</td>
+      <td>0.313683</td>
+      <td>-0.824623</td>
+      <td>102.816034</td>
+      <td>6.134170</td>
+      <td>72.430917</td>
+      <td>-377.495529325022</td>
+      <td>7.074143</td>
+      <td>7.676579</td>
+      <td>72.703358</td>
+      <td>0.520186</td>
+      <td>male</td>
+      <td>0.849677</td>
+      <td>1.178534</td>
+      <td>759.765566</td>
+      <td>17.523317</td>
+      <td>0.444232</td>
+      <td>-1.549220</td>
+      <td>no</td>
+      <td>1.130353</td>
+      <td>Florida</td>
+      <td>41.982861</td>
+      <td>2.309857</td>
+      <td>68.489433</td>
+      <td>31.802446</td>
+      <td>29.893769</td>
+      <td>5-10 miles</td>
+      <td>16.987226</td>
+      <td>97628.442038</td>
+      <td>NaN</td>
+      <td>0.440045</td>
+      <td>NaN</td>
+      <td>0.672879</td>
+      <td>3.121838</td>
+      <td>50.335336</td>
+      <td>55.979128</td>
+      <td>9.887514</td>
+      <td>1564.639941</td>
+      <td>3.842460</td>
+      <td>NaN</td>
+      <td>73.728585</td>
+      <td>1.366928</td>
+      <td>NaN</td>
+      <td>0.186035</td>
+      <td>47.142610</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>January</td>
+      <td>13.048572</td>
+      <td>8.884421</td>
+      <td>1.097294</td>
+      <td>44.834865</td>
+      <td>farmers</td>
+      <td>-0.211141</td>
+      <td>14.402071</td>
+      <td>26.651846</td>
+      <td>1.319336</td>
+      <td>0.651186</td>
+      <td>-0.000234</td>
+      <td>60.552217</td>
+      <td>9.469803</td>
+      <td>-0.989563</td>
+      <td>0.218994</td>
+      <td>0.951720</td>
+      <td>mercedes</td>
+      <td>44.449820</td>
+      <td>1.0</td>
+      <td>14.601537</td>
+      <td>1.425902</td>
+      <td>-3.274212</td>
+      <td>3.601828</td>
+      <td>2.138771</td>
+      <td>93.228245</td>
+      <td>55.869454</td>
+      <td>0.612429</td>
+      <td>0.587316</td>
+      <td>11.003700</td>
+      <td>2.347867</td>
+      <td>1.458799</td>
+      <td>4.470832</td>
+      <td>no</td>
+      <td>3.482305</td>
+      <td>0.951736</td>
+      <td>9.245415</td>
+      <td>10.542323</td>
+      <td>0</td>
+      <td>yes</td>
+      <td>95.249052</td>
+      <td>Tuesday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-377.495529</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>0.0</td>
+      <td>1.085729</td>
+      <td>20.656173</td>
+      <td>Fri</td>
+      <td>2.082224</td>
+      <td>-1.852744</td>
+      <td>-0.927487</td>
+      <td>-0.0086%</td>
+      <td>-0.252541</td>
+      <td>0.506410</td>
+      <td>-1.467487</td>
+      <td>74.062091</td>
+      <td>9.315017</td>
+      <td>7.134765</td>
+      <td>-0.135705</td>
+      <td>0.206855</td>
+      <td>100.795214</td>
+      <td>7.575984</td>
+      <td>78.513809</td>
+      <td>-424.548539589247</td>
+      <td>3.576508</td>
+      <td>-0.909187</td>
+      <td>65.819208</td>
+      <td>-0.289038</td>
+      <td>male</td>
+      <td>5.965432</td>
+      <td>-1.525005</td>
+      <td>892.424509</td>
+      <td>19.755760</td>
+      <td>0.629403</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>-0.326082</td>
+      <td>Pennsylvania</td>
+      <td>52.870661</td>
+      <td>0.782285</td>
+      <td>67.904927</td>
+      <td>30.972874</td>
+      <td>25.986835</td>
+      <td>5-10 miles</td>
+      <td>17.358292</td>
+      <td>NaN</td>
+      <td>2.695066</td>
+      <td>-1.239702</td>
+      <td>NaN</td>
+      <td>1.795744</td>
+      <td>-1.574971</td>
+      <td>41.614953</td>
+      <td>63.733721</td>
+      <td>NaN</td>
+      <td>2123.517813</td>
+      <td>1.134946</td>
+      <td>6.781891</td>
+      <td>73.138786</td>
+      <td>1.191221</td>
+      <td>NaN</td>
+      <td>0.212593</td>
+      <td>41.025229</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>June</td>
+      <td>8.620482</td>
+      <td>2.627061</td>
+      <td>-1.777106</td>
+      <td>48.156145</td>
+      <td>esurance</td>
+      <td>1.198290</td>
+      <td>14.402071</td>
+      <td>10.874679</td>
+      <td>-0.895914</td>
+      <td>0.597087</td>
+      <td>-0.000234</td>
+      <td>51.675877</td>
+      <td>6.316327</td>
+      <td>2.174718</td>
+      <td>1.298096</td>
+      <td>-0.759397</td>
+      <td>ford</td>
+      <td>52.655853</td>
+      <td>1.0</td>
+      <td>9.004827</td>
+      <td>1.082627</td>
+      <td>-4.792126</td>
+      <td>1.798628</td>
+      <td>2.138771</td>
+      <td>122.719780</td>
+      <td>55.666776</td>
+      <td>2.504463</td>
+      <td>-1.188171</td>
+      <td>12.324060</td>
+      <td>3.824248</td>
+      <td>0.150539</td>
+      <td>-1.455506</td>
+      <td>no</td>
+      <td>3.702780</td>
+      <td>0.240972</td>
+      <td>8.825705</td>
+      <td>10.033341</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>93.797464</td>
+      <td>Friday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-424.548540</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>0.0</td>
+      <td>5.920842</td>
+      <td>20.735024</td>
+      <td>Monday</td>
+      <td>2.484090</td>
+      <td>-1.181093</td>
+      <td>1.863756</td>
+      <td>-0.0045%</td>
+      <td>-0.912837</td>
+      <td>3.386534</td>
+      <td>0.558239</td>
+      <td>NaN</td>
+      <td>-0.960519</td>
+      <td>1.057842</td>
+      <td>0.330293</td>
+      <td>-2.237293</td>
+      <td>NaN</td>
+      <td>5.899736</td>
+      <td>78.630393</td>
+      <td>1270.0422302779</td>
+      <td>8.006080</td>
+      <td>1.138735</td>
+      <td>81.175800</td>
+      <td>-0.978278</td>
+      <td>male</td>
+      <td>6.930175</td>
+      <td>-0.174895</td>
+      <td>1103.117022</td>
+      <td>16.114720</td>
+      <td>2.846068</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>-0.014352</td>
+      <td>Iowa</td>
+      <td>46.641703</td>
+      <td>1.468666</td>
+      <td>66.919194</td>
+      <td>39.642437</td>
+      <td>-0.937684</td>
+      <td>5-10 miles</td>
+      <td>12.802723</td>
+      <td>NaN</td>
+      <td>-0.285198</td>
+      <td>1.522347</td>
+      <td>NaN</td>
+      <td>1.730648</td>
+      <td>1.250979</td>
+      <td>45.485679</td>
+      <td>58.712763</td>
+      <td>11.230815</td>
+      <td>2516.492792</td>
+      <td>3.020630</td>
+      <td>NaN</td>
+      <td>68.071240</td>
+      <td>1.946229</td>
+      <td>1.963242</td>
+      <td>-1.921669</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>January</td>
+      <td>8.138817</td>
+      <td>0.316470</td>
+      <td>0.754968</td>
+      <td>54.749787</td>
+      <td>esurance</td>
+      <td>-2.016578</td>
+      <td>14.402071</td>
+      <td>9.387918</td>
+      <td>-1.760102</td>
+      <td>0.839130</td>
+      <td>-0.000234</td>
+      <td>54.684295</td>
+      <td>25.480629</td>
+      <td>NaN</td>
+      <td>-0.695899</td>
+      <td>0.295910</td>
+      <td>nissan</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>7.631634</td>
+      <td>-0.873451</td>
+      <td>-4.864408</td>
+      <td>5.922788</td>
+      <td>2.138771</td>
+      <td>NaN</td>
+      <td>54.870932</td>
+      <td>1.463284</td>
+      <td>-0.075208</td>
+      <td>6.803261</td>
+      <td>1.888470</td>
+      <td>-0.083934</td>
+      <td>3.647188</td>
+      <td>yes</td>
+      <td>5.189325</td>
+      <td>1.866006</td>
+      <td>10.654200</td>
+      <td>8.844615</td>
+      <td>0</td>
+      <td>yes</td>
+      <td>109.857275</td>
+      <td>Monday</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1270.042230</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>1.0</td>
+      <td>2.420340</td>
+      <td>18.407849</td>
+      <td>Saturday</td>
+      <td>0.328577</td>
+      <td>1.145184</td>
+      <td>0.069740</td>
+      <td>-0.0023%</td>
+      <td>-0.762970</td>
+      <td>2.166202</td>
+      <td>-0.250974</td>
+      <td>106.055689</td>
+      <td>-1.068368</td>
+      <td>2.813137</td>
+      <td>-0.084128</td>
+      <td>-0.344018</td>
+      <td>NaN</td>
+      <td>8.549584</td>
+      <td>87.622439</td>
+      <td>-1569.34439567685</td>
+      <td>10.451352</td>
+      <td>1.185761</td>
+      <td>93.231646</td>
+      <td>1.134394</td>
+      <td>female</td>
+      <td>4.491173</td>
+      <td>0.045629</td>
+      <td>1121.972485</td>
+      <td>14.497215</td>
+      <td>1.715698</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>1.152833</td>
+      <td>Vermont</td>
+      <td>51.785739</td>
+      <td>-0.455896</td>
+      <td>77.853138</td>
+      <td>33.549555</td>
+      <td>41.217200</td>
+      <td>5-10 miles</td>
+      <td>10.550313</td>
+      <td>100289.761062</td>
+      <td>NaN</td>
+      <td>-0.686421</td>
+      <td>-0.431761</td>
+      <td>-0.245325</td>
+      <td>-2.147297</td>
+      <td>50.586053</td>
+      <td>60.514922</td>
+      <td>NaN</td>
+      <td>1863.731022</td>
+      <td>1.833697</td>
+      <td>-2.216541</td>
+      <td>67.373135</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.457482</td>
+      <td>28.330490</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>December</td>
+      <td>15.031530</td>
+      <td>6.311533</td>
+      <td>1.029787</td>
+      <td>NaN</td>
+      <td>allstate</td>
+      <td>-1.794189</td>
+      <td>14.402071</td>
+      <td>22.122189</td>
+      <td>0.123507</td>
+      <td>0.862524</td>
+      <td>-0.000234</td>
+      <td>50.541584</td>
+      <td>11.030803</td>
+      <td>-0.206062</td>
+      <td>-0.859428</td>
+      <td>-1.363408</td>
+      <td>subaru</td>
+      <td>49.101513</td>
+      <td>1.0</td>
+      <td>13.569398</td>
+      <td>-0.561175</td>
+      <td>-8.435930</td>
+      <td>7.023887</td>
+      <td>2.138771</td>
+      <td>NaN</td>
+      <td>47.342153</td>
+      <td>-1.300313</td>
+      <td>0.302099</td>
+      <td>8.679947</td>
+      <td>1.761206</td>
+      <td>NaN</td>
+      <td>3.195087</td>
+      <td>no</td>
+      <td>4.231478</td>
+      <td>NaN</td>
+      <td>9.887076</td>
+      <td>11.489041</td>
+      <td>1</td>
+      <td>yes</td>
+      <td>108.011031</td>
+      <td>Saturday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>-1569.344396</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>1.0</td>
+      <td>3.590630</td>
+      <td>19.276613</td>
+      <td>Monday</td>
+      <td>-1.909178</td>
+      <td>1.086186</td>
+      <td>0.004714</td>
+      <td>-0.0107%</td>
+      <td>-0.520443</td>
+      <td>1.203013</td>
+      <td>-0.894528</td>
+      <td>101.761794</td>
+      <td>0.401776</td>
+      <td>2.856290</td>
+      <td>0.516626</td>
+      <td>-3.286554</td>
+      <td>100.081117</td>
+      <td>4.538322</td>
+      <td>82.770744</td>
+      <td>878.100066716282</td>
+      <td>9.854610</td>
+      <td>1.061601</td>
+      <td>65.844988</td>
+      <td>-0.601813</td>
+      <td>female</td>
+      <td>8.892796</td>
+      <td>-1.606626</td>
+      <td>992.638889</td>
+      <td>12.717592</td>
+      <td>0.641838</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>0.057373</td>
+      <td>Texas</td>
+      <td>61.322409</td>
+      <td>2.379824</td>
+      <td>68.067295</td>
+      <td>32.145248</td>
+      <td>1.090174</td>
+      <td>5-10 miles</td>
+      <td>18.637043</td>
+      <td>100635.702011</td>
+      <td>1.260977</td>
+      <td>-0.291035</td>
+      <td>NaN</td>
+      <td>0.730657</td>
+      <td>-2.854990</td>
+      <td>52.211846</td>
+      <td>57.501257</td>
+      <td>14.267286</td>
+      <td>2538.560746</td>
+      <td>1.533737</td>
+      <td>NaN</td>
+      <td>72.288609</td>
+      <td>NaN</td>
+      <td>4.057466</td>
+      <td>0.703278</td>
+      <td>29.818862</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>July</td>
+      <td>NaN</td>
+      <td>2.244722</td>
+      <td>1.688462</td>
+      <td>46.002379</td>
+      <td>allstate</td>
+      <td>0.062035</td>
+      <td>14.402071</td>
+      <td>11.380145</td>
+      <td>0.058412</td>
+      <td>0.451443</td>
+      <td>-0.000234</td>
+      <td>58.430655</td>
+      <td>2.703100</td>
+      <td>NaN</td>
+      <td>1.115489</td>
+      <td>-1.796585</td>
+      <td>toyota</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>7.468681</td>
+      <td>-1.265353</td>
+      <td>-8.807730</td>
+      <td>2.821918</td>
+      <td>3.908445</td>
+      <td>102.278115</td>
+      <td>51.942062</td>
+      <td>1.651193</td>
+      <td>2.554476</td>
+      <td>NaN</td>
+      <td>3.791172</td>
+      <td>-1.654819</td>
+      <td>1.906862</td>
+      <td>no</td>
+      <td>2.863438</td>
+      <td>-1.049002</td>
+      <td>10.743472</td>
+      <td>9.461470</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>87.904625</td>
+      <td>Monday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>878.100067</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>0.0</td>
+      <td>5.425648</td>
+      <td>18.757789</td>
+      <td>Thur</td>
+      <td>0.741306</td>
+      <td>0.705725</td>
+      <td>-0.227966</td>
+      <td>-0.0118%</td>
+      <td>1.056694</td>
+      <td>1.362535</td>
+      <td>-0.417212</td>
+      <td>102.389526</td>
+      <td>4.750968</td>
+      <td>2.726950</td>
+      <td>0.744112</td>
+      <td>0.659888</td>
+      <td>101.912532</td>
+      <td>7.727316</td>
+      <td>76.248936</td>
+      <td>-1258.81184572961</td>
+      <td>3.713467</td>
+      <td>1.975054</td>
+      <td>99.044943</td>
+      <td>0.106004</td>
+      <td>female</td>
+      <td>7.626973</td>
+      <td>-0.413595</td>
+      <td>866.066918</td>
+      <td>14.529850</td>
+      <td>1.850933</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>-1.360002</td>
+      <td>Ohio</td>
+      <td>53.645042</td>
+      <td>2.798853</td>
+      <td>68.282641</td>
+      <td>30.293543</td>
+      <td>-1.287744</td>
+      <td>5-10 miles</td>
+      <td>18.173743</td>
+      <td>NaN</td>
+      <td>1.694061</td>
+      <td>1.692109</td>
+      <td>NaN</td>
+      <td>0.329873</td>
+      <td>2.541289</td>
+      <td>52.646384</td>
+      <td>55.868266</td>
+      <td>11.418698</td>
+      <td>3567.558053</td>
+      <td>3.024054</td>
+      <td>10.018772</td>
+      <td>69.220579</td>
+      <td>-0.915754</td>
+      <td>0.639138</td>
+      <td>1.610264</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>July</td>
+      <td>9.406218</td>
+      <td>7.797542</td>
+      <td>0.218372</td>
+      <td>50.489315</td>
+      <td>allstate</td>
+      <td>-0.590423</td>
+      <td>14.402071</td>
+      <td>15.548843</td>
+      <td>0.935956</td>
+      <td>0.658770</td>
+      <td>-0.000234</td>
+      <td>49.065051</td>
+      <td>4.257907</td>
+      <td>-2.615816</td>
+      <td>NaN</td>
+      <td>-1.953749</td>
+      <td>ford</td>
+      <td>50.199080</td>
+      <td>1.0</td>
+      <td>10.468642</td>
+      <td>-2.132114</td>
+      <td>-5.879097</td>
+      <td>2.166102</td>
+      <td>2.138771</td>
+      <td>107.224823</td>
+      <td>50.012086</td>
+      <td>-0.227429</td>
+      <td>-0.026464</td>
+      <td>NaN</td>
+      <td>4.345416</td>
+      <td>-1.832542</td>
+      <td>8.182267</td>
+      <td>no</td>
+      <td>3.420189</td>
+      <td>NaN</td>
+      <td>11.361448</td>
+      <td>9.318231</td>
+      <td>1</td>
+      <td>yes</td>
+      <td>94.051198</td>
+      <td>Thursday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-1258.811846</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>0.0</td>
+      <td>2.273941</td>
+      <td>18.585367</td>
+      <td>Thursday</td>
+      <td>0.114900</td>
+      <td>0.444391</td>
+      <td>-3.082983</td>
+      <td>0.0095%</td>
+      <td>-0.011170</td>
+      <td>1.026817</td>
+      <td>1.019650</td>
+      <td>81.530904</td>
+      <td>6.017023</td>
+      <td>2.628634</td>
+      <td>NaN</td>
+      <td>-0.180999</td>
+      <td>100.846754</td>
+      <td>4.154468</td>
+      <td>85.523309</td>
+      <td>775.659697414614</td>
+      <td>5.704444</td>
+      <td>41.025612</td>
+      <td>65.795107</td>
+      <td>1.475786</td>
+      <td>female</td>
+      <td>3.039228</td>
+      <td>0.468705</td>
+      <td>871.865782</td>
+      <td>16.516512</td>
+      <td>2.420323</td>
+      <td>0.168683</td>
+      <td>no</td>
+      <td>-1.438065</td>
+      <td>Texas</td>
+      <td>56.488700</td>
+      <td>1.970294</td>
+      <td>69.151560</td>
+      <td>27.941982</td>
+      <td>21.873827</td>
+      <td>5-10 miles</td>
+      <td>16.209255</td>
+      <td>98976.178857</td>
+      <td>-0.850746</td>
+      <td>1.062090</td>
+      <td>2.523868</td>
+      <td>0.524963</td>
+      <td>2.072749</td>
+      <td>47.448105</td>
+      <td>59.267462</td>
+      <td>13.273369</td>
+      <td>3403.218494</td>
+      <td>0.516709</td>
+      <td>6.247258</td>
+      <td>69.019911</td>
+      <td>0.692931</td>
+      <td>1.556521</td>
+      <td>3.102077</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>January</td>
+      <td>8.843178</td>
+      <td>3.744601</td>
+      <td>1.518006</td>
+      <td>52.725001</td>
+      <td>allstate</td>
+      <td>0.308495</td>
+      <td>12.515623</td>
+      <td>10.969753</td>
+      <td>1.919348</td>
+      <td>0.536424</td>
+      <td>-0.000234</td>
+      <td>45.809681</td>
+      <td>1.895444</td>
+      <td>1.842770</td>
+      <td>-0.563077</td>
+      <td>NaN</td>
+      <td>nissan</td>
+      <td>58.759056</td>
+      <td>1.0</td>
+      <td>9.383022</td>
+      <td>-1.647562</td>
+      <td>-7.474677</td>
+      <td>0.254891</td>
+      <td>2.138771</td>
+      <td>104.660374</td>
+      <td>45.176192</td>
+      <td>0.357874</td>
+      <td>2.041707</td>
+      <td>NaN</td>
+      <td>5.109735</td>
+      <td>-1.332084</td>
+      <td>5.179209</td>
+      <td>no</td>
+      <td>6.841736</td>
+      <td>NaN</td>
+      <td>10.546733</td>
+      <td>9.027264</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>104.474764</td>
+      <td>Thursday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>775.659697</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>0.0</td>
+      <td>2.670966</td>
+      <td>19.258592</td>
+      <td>Sun</td>
+      <td>1.270731</td>
+      <td>0.690808</td>
+      <td>-1.330575</td>
+      <td>0.0032%</td>
+      <td>0.262055</td>
+      <td>-0.304038</td>
+      <td>1.355445</td>
+      <td>126.524277</td>
+      <td>-1.633055</td>
+      <td>2.459002</td>
+      <td>0.220259</td>
+      <td>0.116380</td>
+      <td>NaN</td>
+      <td>7.424501</td>
+      <td>76.069601</td>
+      <td>-11.3224197917339</td>
+      <td>8.624916</td>
+      <td>5.590282</td>
+      <td>94.475579</td>
+      <td>-0.050838</td>
+      <td>male</td>
+      <td>6.662997</td>
+      <td>1.381643</td>
+      <td>954.110876</td>
+      <td>14.440388</td>
+      <td>3.435411</td>
+      <td>-0.987722</td>
+      <td>no</td>
+      <td>-0.760646</td>
+      <td>Georgia</td>
+      <td>57.125091</td>
+      <td>3.535973</td>
+      <td>70.614063</td>
+      <td>29.906324</td>
+      <td>-1.058145</td>
+      <td>5-10 miles</td>
+      <td>10.386270</td>
+      <td>NaN</td>
+      <td>-0.353316</td>
+      <td>1.067441</td>
+      <td>NaN</td>
+      <td>-1.094094</td>
+      <td>1.365466</td>
+      <td>48.359171</td>
+      <td>61.581429</td>
+      <td>NaN</td>
+      <td>832.512430</td>
+      <td>3.374357</td>
+      <td>NaN</td>
+      <td>73.584151</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.943253</td>
+      <td>39.962307</td>
+      <td>425.319064</td>
+      <td>0</td>
+      <td>September</td>
+      <td>13.966563</td>
+      <td>1.052432</td>
+      <td>-0.173850</td>
+      <td>45.408990</td>
+      <td>progressive</td>
+      <td>-1.010477</td>
+      <td>14.402071</td>
+      <td>18.424391</td>
+      <td>0.045690</td>
+      <td>1.082370</td>
+      <td>-0.000234</td>
+      <td>56.063345</td>
+      <td>2.993091</td>
+      <td>NaN</td>
+      <td>-1.143127</td>
+      <td>-3.376159</td>
+      <td>toyota</td>
+      <td>37.864101</td>
+      <td>0.0</td>
+      <td>9.449126</td>
+      <td>2.025149</td>
+      <td>-9.697646</td>
+      <td>1.553803</td>
+      <td>2.138771</td>
+      <td>98.189866</td>
+      <td>51.787574</td>
+      <td>0.357767</td>
+      <td>0.813024</td>
+      <td>NaN</td>
+      <td>2.975412</td>
+      <td>-2.140699</td>
+      <td>7.132307</td>
+      <td>no</td>
+      <td>7.000418</td>
+      <td>-0.291764</td>
+      <td>9.724420</td>
+      <td>10.441363</td>
+      <td>0</td>
+      <td>yes</td>
+      <td>98.609738</td>
+      <td>Sunday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>-11.322420</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>0.0</td>
+      <td>2.677583</td>
+      <td>20.783038</td>
+      <td>Wednesday</td>
+      <td>-1.237068</td>
+      <td>-0.474659</td>
+      <td>2.358205</td>
+      <td>-0.0097%</td>
+      <td>-3.192233</td>
+      <td>2.745553</td>
+      <td>3.086054</td>
+      <td>97.276448</td>
+      <td>3.395567</td>
+      <td>1.847226</td>
+      <td>0.575811</td>
+      <td>1.278198</td>
+      <td>101.166415</td>
+      <td>7.764516</td>
+      <td>70.668162</td>
+      <td>-852.161847353522</td>
+      <td>5.429931</td>
+      <td>10.057976</td>
+      <td>86.624394</td>
+      <td>-1.167324</td>
+      <td>male</td>
+      <td>3.081207</td>
+      <td>0.624100</td>
+      <td>969.011377</td>
+      <td>20.313024</td>
+      <td>2.619834</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>4.795874</td>
+      <td>Virginia</td>
+      <td>48.063910</td>
+      <td>5.235948</td>
+      <td>67.361114</td>
+      <td>29.650437</td>
+      <td>51.656355</td>
+      <td>5-10 miles</td>
+      <td>15.159650</td>
+      <td>100913.059342</td>
+      <td>1.905130</td>
+      <td>0.991917</td>
+      <td>NaN</td>
+      <td>0.761464</td>
+      <td>0.778297</td>
+      <td>47.214217</td>
+      <td>66.391534</td>
+      <td>10.760941</td>
+      <td>1282.060023</td>
+      <td>0.576363</td>
+      <td>NaN</td>
+      <td>63.722352</td>
+      <td>2.428204</td>
+      <td>2.863025</td>
+      <td>2.687744</td>
+      <td>27.159792</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>December</td>
+      <td>5.334893</td>
+      <td>2.694536</td>
+      <td>-1.172405</td>
+      <td>60.861842</td>
+      <td>allstate</td>
+      <td>-0.851030</td>
+      <td>14.402071</td>
+      <td>8.152136</td>
+      <td>0.726272</td>
+      <td>0.609699</td>
+      <td>-0.000234</td>
+      <td>57.916710</td>
+      <td>4.960736</td>
+      <td>-1.237401</td>
+      <td>-0.310752</td>
+      <td>-3.330754</td>
+      <td>mercedes</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>9.883368</td>
+      <td>1.369283</td>
+      <td>-9.309937</td>
+      <td>2.652772</td>
+      <td>2.138771</td>
+      <td>87.211936</td>
+      <td>53.873532</td>
+      <td>1.128110</td>
+      <td>0.723612</td>
+      <td>16.423606</td>
+      <td>3.803944</td>
+      <td>1.015864</td>
+      <td>0.589462</td>
+      <td>no</td>
+      <td>6.192793</td>
+      <td>1.562446</td>
+      <td>10.346309</td>
+      <td>12.015423</td>
+      <td>1</td>
+      <td>yes</td>
+      <td>92.310816</td>
+      <td>Wednesday</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-852.161847</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>0.0</td>
+      <td>6.675002</td>
+      <td>19.722674</td>
+      <td>Friday</td>
+      <td>1.054523</td>
+      <td>0.240598</td>
+      <td>-0.968203</td>
+      <td>-8e-04%</td>
+      <td>-0.582143</td>
+      <td>1.437990</td>
+      <td>0.650798</td>
+      <td>103.150425</td>
+      <td>4.954366</td>
+      <td>9.461685</td>
+      <td>-0.177194</td>
+      <td>0.239898</td>
+      <td>99.480360</td>
+      <td>8.874447</td>
+      <td>80.855151</td>
+      <td>-1031.00229371413</td>
+      <td>4.432281</td>
+      <td>4.976739</td>
+      <td>58.014467</td>
+      <td>0.773677</td>
+      <td>male</td>
+      <td>6.226266</td>
+      <td>1.624389</td>
+      <td>1144.397798</td>
+      <td>10.372189</td>
+      <td>2.400546</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>0.901287</td>
+      <td>Florida</td>
+      <td>58.148832</td>
+      <td>0.465021</td>
+      <td>74.395219</td>
+      <td>28.964897</td>
+      <td>45.949993</td>
+      <td>5-10 miles</td>
+      <td>16.615205</td>
+      <td>100540.522132</td>
+      <td>0.967822</td>
+      <td>0.584456</td>
+      <td>NaN</td>
+      <td>0.137647</td>
+      <td>-2.370748</td>
+      <td>54.857262</td>
+      <td>58.209519</td>
+      <td>9.213783</td>
+      <td>2448.518068</td>
+      <td>3.651454</td>
+      <td>4.586283</td>
+      <td>63.800834</td>
+      <td>-1.804076</td>
+      <td>2.898803</td>
+      <td>2.777968</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>January</td>
+      <td>NaN</td>
+      <td>2.736460</td>
+      <td>1.858911</td>
+      <td>NaN</td>
+      <td>progressive</td>
+      <td>-0.445550</td>
+      <td>14.402071</td>
+      <td>19.108271</td>
+      <td>1.207647</td>
+      <td>0.661155</td>
+      <td>-0.000234</td>
+      <td>39.787032</td>
+      <td>4.273964</td>
+      <td>NaN</td>
+      <td>1.948913</td>
+      <td>-1.265416</td>
+      <td>ford</td>
+      <td>54.078427</td>
+      <td>1.0</td>
+      <td>8.934324</td>
+      <td>-0.931729</td>
+      <td>-6.896847</td>
+      <td>3.005772</td>
+      <td>2.138771</td>
+      <td>NaN</td>
+      <td>47.925377</td>
+      <td>-0.900395</td>
+      <td>0.641437</td>
+      <td>8.332443</td>
+      <td>2.542791</td>
+      <td>1.106641</td>
+      <td>6.189436</td>
+      <td>yes</td>
+      <td>3.301310</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>8.967122</td>
+      <td>1</td>
+      <td>yes</td>
+      <td>99.019956</td>
+      <td>Friday</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-1031.002294</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>1.0</td>
+      <td>1.990833</td>
+      <td>20.373637</td>
+      <td>Wednesday</td>
+      <td>-0.390258</td>
+      <td>-1.116635</td>
+      <td>0.941461</td>
+      <td>-0.0016%</td>
+      <td>0.572468</td>
+      <td>2.852239</td>
+      <td>0.913016</td>
+      <td>74.287454</td>
+      <td>-2.225833</td>
+      <td>2.120937</td>
+      <td>0.319785</td>
+      <td>-1.251638</td>
+      <td>99.457162</td>
+      <td>9.890300</td>
+      <td>85.630380</td>
+      <td>582.929320723975</td>
+      <td>5.454000</td>
+      <td>16.999960</td>
+      <td>61.017136</td>
+      <td>-0.432490</td>
+      <td>female</td>
+      <td>5.418350</td>
+      <td>1.441817</td>
+      <td>1168.288661</td>
+      <td>12.504238</td>
+      <td>1.734034</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>-0.155570</td>
+      <td>Georgia</td>
+      <td>46.694415</td>
+      <td>0.083954</td>
+      <td>70.617277</td>
+      <td>29.610666</td>
+      <td>34.571017</td>
+      <td>5-10 miles</td>
+      <td>18.649358</td>
+      <td>101816.515322</td>
+      <td>NaN</td>
+      <td>0.376246</td>
+      <td>1.806499</td>
+      <td>NaN</td>
+      <td>-1.596171</td>
+      <td>48.461752</td>
+      <td>60.200308</td>
+      <td>9.892797</td>
+      <td>4541.592117</td>
+      <td>2.273269</td>
+      <td>NaN</td>
+      <td>65.103142</td>
+      <td>2.495451</td>
+      <td>NaN</td>
+      <td>2.221408</td>
+      <td>NaN</td>
+      <td>104.828367</td>
+      <td>0</td>
+      <td>May</td>
+      <td>3.396340</td>
+      <td>4.123904</td>
+      <td>-1.725465</td>
+      <td>48.160633</td>
+      <td>progressive</td>
+      <td>-0.379021</td>
+      <td>14.402071</td>
+      <td>21.147669</td>
+      <td>0.015626</td>
+      <td>0.780072</td>
+      <td>-0.000234</td>
+      <td>55.425382</td>
+      <td>12.334512</td>
+      <td>-2.095503</td>
+      <td>-0.273450</td>
+      <td>-2.207709</td>
+      <td>chevrolet</td>
+      <td>56.360437</td>
+      <td>1.0</td>
+      <td>7.436641</td>
+      <td>-2.616910</td>
+      <td>-3.114343</td>
+      <td>6.042088</td>
+      <td>2.138771</td>
+      <td>75.211463</td>
+      <td>52.755953</td>
+      <td>-0.879937</td>
+      <td>0.407320</td>
+      <td>NaN</td>
+      <td>3.499322</td>
+      <td>0.759894</td>
+      <td>4.111461</td>
+      <td>no</td>
+      <td>3.701242</td>
+      <td>-1.495538</td>
+      <td>9.733021</td>
+      <td>6.482383</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>108.563558</td>
+      <td>Wednesday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>582.929321</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>0.0</td>
+      <td>5.892822</td>
+      <td>19.806791</td>
+      <td>Saturday</td>
+      <td>-2.111103</td>
+      <td>2.030562</td>
+      <td>-0.372709</td>
+      <td>0.0122%</td>
+      <td>0.539214</td>
+      <td>6.913169</td>
+      <td>-0.670799</td>
+      <td>108.976936</td>
+      <td>4.804603</td>
+      <td>1.672398</td>
+      <td>NaN</td>
+      <td>1.158351</td>
+      <td>99.524065</td>
+      <td>12.142940</td>
+      <td>82.450134</td>
+      <td>-885.133604890455</td>
+      <td>1.419497</td>
+      <td>48.733889</td>
+      <td>104.539327</td>
+      <td>-1.325749</td>
+      <td>female</td>
+      <td>7.315448</td>
+      <td>-0.120215</td>
+      <td>895.548949</td>
+      <td>20.426875</td>
+      <td>0.816151</td>
+      <td>NaN</td>
+      <td>no</td>
+      <td>-0.019487</td>
+      <td>Minnesota</td>
+      <td>55.148461</td>
+      <td>2.555936</td>
+      <td>65.968882</td>
+      <td>30.304900</td>
+      <td>62.342844</td>
+      <td>5-10 miles</td>
+      <td>12.820487</td>
+      <td>99078.041559</td>
+      <td>0.941093</td>
+      <td>-0.222092</td>
+      <td>0.062385</td>
+      <td>0.205713</td>
+      <td>3.900633</td>
+      <td>47.233266</td>
+      <td>67.724094</td>
+      <td>NaN</td>
+      <td>736.559585</td>
+      <td>1.914889</td>
+      <td>-2.318028</td>
+      <td>80.006215</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.067192</td>
+      <td>NaN</td>
+      <td>300.629990</td>
+      <td>0</td>
+      <td>July</td>
+      <td>13.849970</td>
+      <td>4.798010</td>
+      <td>-0.796820</td>
+      <td>49.473054</td>
+      <td>esurance</td>
+      <td>-1.176057</td>
+      <td>23.815008</td>
+      <td>8.568076</td>
+      <td>1.513411</td>
+      <td>0.367371</td>
+      <td>-0.000234</td>
+      <td>48.763031</td>
+      <td>6.511737</td>
+      <td>-1.888440</td>
+      <td>-0.207626</td>
+      <td>-2.607038</td>
+      <td>mercedes</td>
+      <td>43.995693</td>
+      <td>1.0</td>
+      <td>12.628405</td>
+      <td>-0.944550</td>
+      <td>-6.977836</td>
+      <td>1.745474</td>
+      <td>2.138771</td>
+      <td>83.534845</td>
+      <td>51.871899</td>
+      <td>0.596679</td>
+      <td>-0.342237</td>
+      <td>8.853166</td>
+      <td>3.514606</td>
+      <td>1.138276</td>
+      <td>3.409949</td>
+      <td>yes</td>
+      <td>4.331840</td>
+      <td>NaN</td>
+      <td>12.338809</td>
+      <td>10.221203</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>99.575990</td>
+      <td>Saturday</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-885.133605</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -33263,493 +36300,6 @@ dtype: int64</pre>
       <td>10.962131</td>
       <td>0</td>
       <td>95.740396</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="x7">x7<a class="anchor-link" href="#x7">&#182;</a></h3><p>Remove percent sign</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfCombine</span><span class="p">[</span><span class="s1">&#39;x7&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfCombine</span><span class="p">[</span><span class="s2">&quot;x7&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;%&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfCombine</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[15]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>y</th>
-      <th>x1</th>
-      <th>x2</th>
-      <th>x3</th>
-      <th>x4</th>
-      <th>x5</th>
-      <th>x6</th>
-      <th>x7</th>
-      <th>x8</th>
-      <th>x9</th>
-      <th>x10</th>
-      <th>x12</th>
-      <th>x13</th>
-      <th>x15</th>
-      <th>x17</th>
-      <th>x18</th>
-      <th>x19</th>
-      <th>x20</th>
-      <th>x21</th>
-      <th>x22</th>
-      <th>x23</th>
-      <th>x25</th>
-      <th>x26</th>
-      <th>x27</th>
-      <th>x28</th>
-      <th>x29</th>
-      <th>x31</th>
-      <th>x32</th>
-      <th>x34</th>
-      <th>x35</th>
-      <th>x36</th>
-      <th>x37</th>
-      <th>x40</th>
-      <th>x43</th>
-      <th>x46</th>
-      <th>x47</th>
-      <th>x48</th>
-      <th>x50</th>
-      <th>x51</th>
-      <th>x53</th>
-      <th>x56</th>
-      <th>x58</th>
-      <th>x59</th>
-      <th>x60</th>
-      <th>x62</th>
-      <th>x63</th>
-      <th>x65</th>
-      <th>x66</th>
-      <th>x67</th>
-      <th>x68</th>
-      <th>x69</th>
-      <th>x70</th>
-      <th>x71</th>
-      <th>x72</th>
-      <th>x73</th>
-      <th>x81</th>
-      <th>x82</th>
-      <th>x84</th>
-      <th>x87</th>
-      <th>x90</th>
-      <th>x92</th>
-      <th>x93</th>
-      <th>x94</th>
-      <th>x97</th>
-      <th>x98</th>
-      <th>x100</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.0</td>
-      <td>0.165254</td>
-      <td>18.060003</td>
-      <td>Wednesday</td>
-      <td>1.077380</td>
-      <td>-1.339233</td>
-      <td>-1.584341</td>
-      <td>0.0062</td>
-      <td>0.220784</td>
-      <td>1.816481</td>
-      <td>1.171788</td>
-      <td>4.644568</td>
-      <td>4.814885</td>
-      <td>-0.587361</td>
-      <td>4.278444</td>
-      <td>77.709700</td>
-      <td>$-908.650758424405</td>
-      <td>7.328029</td>
-      <td>36.601967</td>
-      <td>126.384294</td>
-      <td>1.264713</td>
-      <td>3.834082</td>
-      <td>2.352406</td>
-      <td>905.491445</td>
-      <td>14.779467</td>
-      <td>0.752524</td>
-      <td>no</td>
-      <td>-0.597288</td>
-      <td>46.667221</td>
-      <td>3.159002</td>
-      <td>69.444841</td>
-      <td>32.450076</td>
-      <td>18.129499</td>
-      <td>1.227266</td>
-      <td>0.234654</td>
-      <td>53.359113</td>
-      <td>58.251700</td>
-      <td>1602.756464</td>
-      <td>2.740134</td>
-      <td>72.167186</td>
-      <td>-1.532562</td>
-      <td>300.629990</td>
-      <td>0</td>
-      <td>August</td>
-      <td>6.600008</td>
-      <td>1.252479</td>
-      <td>farmers</td>
-      <td>1.212048</td>
-      <td>12.896733</td>
-      <td>15.263491</td>
-      <td>0.518653</td>
-      <td>0.543768</td>
-      <td>-0.912506</td>
-      <td>53.521544</td>
-      <td>7.723719</td>
-      <td>-0.471594</td>
-      <td>-3.261865</td>
-      <td>0.383351</td>
-      <td>-0.162668</td>
-      <td>2.770844</td>
-      <td>0.909479</td>
-      <td>no</td>
-      <td>5.492487</td>
-      <td>7.627730</td>
-      <td>0</td>
-      <td>104.251338</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1.0</td>
-      <td>2.441471</td>
-      <td>18.416307</td>
-      <td>Friday</td>
-      <td>1.482586</td>
-      <td>0.920817</td>
-      <td>-0.759931</td>
-      <td>0.0064</td>
-      <td>1.192441</td>
-      <td>3.513950</td>
-      <td>1.419900</td>
-      <td>1.459868</td>
-      <td>1.443983</td>
-      <td>-1.165869</td>
-      <td>8.487132</td>
-      <td>70.808566</td>
-      <td>$-1864.9622875143</td>
-      <td>6.796408</td>
-      <td>3.789176</td>
-      <td>93.037021</td>
-      <td>0.346201</td>
-      <td>4.345028</td>
-      <td>1.651579</td>
-      <td>868.784447</td>
-      <td>25.914680</td>
-      <td>1.445294</td>
-      <td>no</td>
-      <td>1.127376</td>
-      <td>47.928569</td>
-      <td>-1.013712</td>
-      <td>61.289132</td>
-      <td>35.521824</td>
-      <td>11.389081</td>
-      <td>-0.822055</td>
-      <td>1.104631</td>
-      <td>37.728834</td>
-      <td>56.052749</td>
-      <td>3350.837875</td>
-      <td>1.995635</td>
-      <td>73.964560</td>
-      <td>0.956001</td>
-      <td>300.629990</td>
-      <td>0</td>
-      <td>April</td>
-      <td>3.864254</td>
-      <td>0.057936</td>
-      <td>allstate</td>
-      <td>0.738526</td>
-      <td>14.402071</td>
-      <td>33.940951</td>
-      <td>-0.140384</td>
-      <td>1.016703</td>
-      <td>-0.000234</td>
-      <td>46.797571</td>
-      <td>7.260365</td>
-      <td>1.691428</td>
-      <td>-4.789183</td>
-      <td>2.138771</td>
-      <td>1.252022</td>
-      <td>3.703013</td>
-      <td>9.093466</td>
-      <td>no</td>
-      <td>3.346429</td>
-      <td>10.505284</td>
-      <td>1</td>
-      <td>101.230645</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1.0</td>
-      <td>4.427278</td>
-      <td>19.188092</td>
-      <td>Thursday</td>
-      <td>0.145652</td>
-      <td>0.366093</td>
-      <td>0.709962</td>
-      <td>-8e-04</td>
-      <td>0.952323</td>
-      <td>0.782974</td>
-      <td>-1.247022</td>
-      <td>1.098525</td>
-      <td>1.216059</td>
-      <td>0.211685</td>
-      <td>8.601193</td>
-      <td>75.922820</td>
-      <td>$-543.187402955527</td>
-      <td>3.802395</td>
-      <td>7.407996</td>
-      <td>71.022413</td>
-      <td>0.070968</td>
-      <td>4.332644</td>
-      <td>-0.375737</td>
-      <td>1077.233497</td>
-      <td>13.177479</td>
-      <td>4.174536</td>
-      <td>no</td>
-      <td>2.605279</td>
-      <td>56.674425</td>
-      <td>0.108486</td>
-      <td>69.798923</td>
-      <td>30.684074</td>
-      <td>14.372443</td>
-      <td>0.150728</td>
-      <td>-2.561083</td>
-      <td>50.236892</td>
-      <td>63.975108</td>
-      <td>3756.910196</td>
-      <td>1.772648</td>
-      <td>59.428690</td>
-      <td>4.127857</td>
-      <td>182.369349</td>
-      <td>0</td>
-      <td>September</td>
-      <td>1.370661</td>
-      <td>-0.239705</td>
-      <td>geico</td>
-      <td>-0.032980</td>
-      <td>14.402071</td>
-      <td>18.211817</td>
-      <td>-0.819798</td>
-      <td>1.010811</td>
-      <td>-0.000234</td>
-      <td>48.202036</td>
-      <td>9.336021</td>
-      <td>-2.608974</td>
-      <td>-6.387984</td>
-      <td>2.138771</td>
-      <td>0.657292</td>
-      <td>3.997183</td>
-      <td>0.305170</td>
-      <td>no</td>
-      <td>4.456565</td>
-      <td>7.810979</td>
-      <td>0</td>
-      <td>109.345215</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.0</td>
-      <td>3.925235</td>
-      <td>19.901257</td>
-      <td>Tuesday</td>
-      <td>1.763602</td>
-      <td>-0.251926</td>
-      <td>-0.827461</td>
-      <td>-0.0057</td>
-      <td>-0.520756</td>
-      <td>1.825586</td>
-      <td>2.223038</td>
-      <td>-1.390239</td>
-      <td>3.962961</td>
-      <td>-2.046856</td>
-      <td>6.611554</td>
-      <td>74.966925</td>
-      <td>$-182.626380634258</td>
-      <td>7.728963</td>
-      <td>8.136213</td>
-      <td>121.610846</td>
-      <td>0.700954</td>
-      <td>7.294990</td>
-      <td>-0.603983</td>
-      <td>1051.655489</td>
-      <td>17.006528</td>
-      <td>2.347355</td>
-      <td>no</td>
-      <td>1.071202</td>
-      <td>59.154933</td>
-      <td>1.319711</td>
-      <td>65.408246</td>
-      <td>34.401290</td>
-      <td>13.191173</td>
-      <td>-0.965711</td>
-      <td>-2.123048</td>
-      <td>41.857197</td>
-      <td>59.226119</td>
-      <td>1961.609788</td>
-      <td>3.155214</td>
-      <td>68.671023</td>
-      <td>0.663759</td>
-      <td>300.629990</td>
-      <td>0</td>
-      <td>September</td>
-      <td>0.013162</td>
-      <td>0.318335</td>
-      <td>geico</td>
-      <td>-0.466535</td>
-      <td>14.402071</td>
-      <td>14.629914</td>
-      <td>1.389325</td>
-      <td>0.704880</td>
-      <td>-1.510949</td>
-      <td>49.882647</td>
-      <td>5.661421</td>
-      <td>1.424316</td>
-      <td>-5.431998</td>
-      <td>2.138771</td>
-      <td>2.066346</td>
-      <td>2.933707</td>
-      <td>5.971782</td>
-      <td>no</td>
-      <td>4.100022</td>
-      <td>9.178325</td>
-      <td>1</td>
-      <td>103.021970</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.0</td>
-      <td>2.868802</td>
-      <td>22.202473</td>
-      <td>Sunday</td>
-      <td>3.405119</td>
-      <td>0.083162</td>
-      <td>1.381504</td>
-      <td>0.0109</td>
-      <td>-0.732739</td>
-      <td>2.151990</td>
-      <td>-0.275406</td>
-      <td>7.230125</td>
-      <td>3.877312</td>
-      <td>-1.201565</td>
-      <td>9.103015</td>
-      <td>77.977156</td>
-      <td>$967.007090837503</td>
-      <td>2.272765</td>
-      <td>24.452102</td>
-      <td>56.492317</td>
-      <td>-1.102387</td>
-      <td>6.313827</td>
-      <td>0.429187</td>
-      <td>949.904947</td>
-      <td>16.962710</td>
-      <td>0.510985</td>
-      <td>yes</td>
-      <td>2.283921</td>
-      <td>46.445617</td>
-      <td>0.022747</td>
-      <td>66.662910</td>
-      <td>31.135261</td>
-      <td>17.210430</td>
-      <td>1.012093</td>
-      <td>3.477451</td>
-      <td>47.844153</td>
-      <td>55.921988</td>
-      <td>2345.195505</td>
-      <td>3.253079</td>
-      <td>71.853326</td>
-      <td>-2.273628</td>
-      <td>149.725023</td>
-      <td>0</td>
-      <td>January</td>
-      <td>1.305936</td>
-      <td>0.418272</td>
-      <td>geico</td>
-      <td>-0.195764</td>
-      <td>14.402071</td>
-      <td>12.227512</td>
-      <td>-2.951163</td>
-      <td>1.096548</td>
-      <td>-0.000234</td>
-      <td>51.349106</td>
-      <td>9.422401</td>
-      <td>0.705003</td>
-      <td>-5.664815</td>
-      <td>2.138771</td>
-      <td>0.663113</td>
-      <td>2.922302</td>
-      <td>1.046096</td>
-      <td>yes</td>
-      <td>3.234033</td>
-      <td>11.702664</td>
-      <td>0</td>
-      <td>92.925935</td>
     </tr>
   </tbody>
 </table>
